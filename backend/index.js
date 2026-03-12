@@ -9,7 +9,7 @@ import activityRouter from './routes/activityRoutes.js';
 
 const app = express();
 
-const allowedOrigins = ["http://localhost:5173", "http://localhost:5174"]
+const allowedOrigins = ["http://localhost:5173", "https://task-flow-wheat-theta.vercel.app"]
 
 app.use(cors({
     origin: allowedOrigins,
