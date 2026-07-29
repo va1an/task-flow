@@ -52,7 +52,7 @@ export default function Register() {
                         <Input label={"Confirm Password"} type={showConfirmPassword ? "text" : "password"} value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} placeholder={"Confirm Password"} icon={<Lock />} rightIcon={showConfirmPassword ? <EyeOff /> : <Eye />} onRightIconClick={() => setShowConfirmPassword(!showConfirmPassword)} />
                         <button className="bg-blue-500 hover:bg-blue-600 font-inter text-white cursor-pointer w-full px-4 py-2 rounded-lg">Signup</button>
                     </form>
-                    <p className="mt-3 text-center font-inter">Already have an account? <Link to={"/login"} className="text-blue-800 hover:underline">Login</Link></p>
+                    <p className="mt-3 text-center font-inter">Already have an account? <Link to={"/"} className="text-blue-800 hover:underline">Login</Link></p>
                 </div>
             </div>
         </div>
